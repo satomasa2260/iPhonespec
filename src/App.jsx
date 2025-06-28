@@ -1,0 +1,99 @@
+import React from 'react';
+import { iphoneData } from './data/iphoneData';
+import iPhoneCard from './components/iPhoneCard';
+import ComparisonTable from './components/ComparisonTable';
+import CTAButton from './components/CTAButton';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-white font-sf">
+      {/* ヘッダー */}
+      <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <h1 className="text-2xl font-sf font-bold text-gray-900">
+              iPhone スペック比較
+            </h1>
+            <p className="text-sm text-gray-600">
+              初代から最新モデルまで
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* ヒーローセクション */}
+        <section className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-sf font-bold text-gray-900 mb-6">
+            iPhoneの進化を<br />
+            <span className="text-apple-blue">一覧で比較</span>
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+            2007年の初代iPhoneから最新のiPhone 16 Pro Maxまで、<br />
+            17年間の革新的な進化の歴史をご覧ください。
+          </p>
+          <CTAButton />
+        </section>
+
+        {/* 比較表セクション */}
+        <section className="mb-20">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-sf font-bold text-gray-900 mb-4">
+              スペック比較表
+            </h3>
+            <p className="text-lg text-gray-600">
+              横スクロールで全モデルの詳細スペックを確認できます
+            </p>
+          </div>
+          
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <ComparisonTable />
+          </div>
+        </section>
+
+        {/* iPhoneカードセクション */}
+        <section className="mb-20">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-sf font-bold text-gray-900 mb-4">
+              各モデルの詳細
+            </h3>
+            <p className="text-lg text-gray-600">
+              画像とスペック、進化ポイントを詳しくご紹介
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {iphoneData.map((iphone) => (
+              <iPhoneCard key={iphone.id} iphone={iphone} />
+            ))}
+          </div>
+        </section>
+
+        {/* CTAセクション */}
+        <section className="text-center bg-apple-gray rounded-3xl p-12">
+          <h3 className="text-3xl font-sf font-bold text-gray-900 mb-4">
+            最新のiPhoneをチェック
+          </h3>
+          <p className="text-lg text-gray-600 mb-8">
+            Apple公式サイトで最新モデルの詳細情報をご確認ください
+          </p>
+          <CTAButton />
+        </section>
+      </main>
+
+      {/* フッター */}
+      <footer className="bg-gray-900 text-white py-12 mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-sm text-gray-400">
+            © 2024 iPhone スペック比較. このサイトはApple公式サイトではありません。
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            データは参考情報です。詳細はApple公式サイトをご確認ください。
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App; 
