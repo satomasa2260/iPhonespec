@@ -4,7 +4,7 @@ import { iphoneData } from '../data/iphoneData';
 const ComparisonTable = ({ onModelClick }) => {
   return (
     <div className="w-full overflow-x-auto custom-scrollbar">
-      <table className="min-w-full bg-white border-collapse">
+      <table className="w-full min-w-[1200px] md:min-w-0 bg-white border-collapse">
         <thead>
           <tr className="border-b border-gray-200/50 bg-gradient-to-r from-gray-50 to-gray-100/50">
             <th className="px-8 py-6 text-left text-sm font-sf font-bold text-gray-900 min-w-[160px] tracking-wide">
@@ -37,9 +37,9 @@ const ComparisonTable = ({ onModelClick }) => {
                 onModelClick && onModelClick(iphone);
               }} 
               key={iphone.id} 
-              className={`border-b border-gray-100/50 hover:bg-gradient-to-r hover:from-blue-50/50 hover:to-purple-50/50 transition-all duration-300 cursor-pointer group ${
-                index % 2 === 0 ? 'bg-white' : 'bg-gray-50/30'
-              }`}
+              className={
+                `border-b border-gray-100/50 hover:bg-gradient-to-r hover:from-blue-50/50 hover:to-purple-50/50 transition-all duration-300 cursor-pointer group odd:bg-white even:bg-gray-50`
+              }
             >
               <td className="px-8 py-6 text-sm text-gray-900 font-semibold group-hover:text-blue-600 transition-colors">
                 <div className="flex items-center">

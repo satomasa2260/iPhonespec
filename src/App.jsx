@@ -153,7 +153,7 @@ function App() {
             </p>
           </div>
           <p className="text-sm text-gray-400 mb-4">
-            © 2024 iPhone スペック比較. このサイトはApple公式サイトではありません。
+            © 2025 iPhone スペック比較. このサイトはApple公式サイトではありません。
           </p>
           <p className="text-xs text-gray-500">
             データは参考情報です。詳細はApple公式サイトをご確認ください。
