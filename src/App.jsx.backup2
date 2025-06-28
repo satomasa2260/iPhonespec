@@ -1,20 +1,10 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import ComparisonTable from './components/ComparisonTable';
 import CTAButton from './components/CTAButton';
 import { iphoneData } from './data/iphoneData';
 import './index.css';
 
 function App() {
-  const detailsSectionRef = useRef(null);
-
-  const handleModelClick = (iphone) => {
-    if (detailsSectionRef.current) {
-      detailsSectionRef.current.scrollIntoView({ 
-        behavior: 'smooth', 
-        block: 'start' 
-      });
-    }
-  };
   return (
     <div className="min-h-screen bg-white font-sf">
       {/* ヘッダー */}
@@ -57,7 +47,7 @@ function App() {
           </div>
           
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-            <ComparisonTable iphones={iphoneData} onModelClick={handleModelClick} />
+            <ComparisonTable iphones={iphoneData} />
           </div>
         </section>
 
