@@ -1,8 +1,10 @@
 import React from 'react';
-import { iphoneData } from './data/iphoneData';
-import iPhoneCard from './components/iPhoneCard';
+import AppleLogo from './components/AppleLogo';
 import ComparisonTable from './components/ComparisonTable';
+import iPhoneCard from './components/iPhoneCard';
 import CTAButton from './components/CTAButton';
+import { iphoneData } from './data/iphoneData';
+import './index.css';
 
 function App() {
   return (
@@ -47,7 +49,7 @@ function App() {
           </div>
           
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-            <ComparisonTable />
+            <ComparisonTable iphones={iphoneData} />
           </div>
         </section>
 

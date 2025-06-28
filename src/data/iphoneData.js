@@ -452,7 +452,7 @@ export const iphoneData = [
     year: 2022,
     model: "iPhone 14",
     displaySize: "6.1インチ",
-    resolution: "1170×2532",
+    resolution: "1179×2556",
     chip: "A15 Bionic",
     camera: "12MP+12MP",
     storage: "128GB/256GB/512GB",
