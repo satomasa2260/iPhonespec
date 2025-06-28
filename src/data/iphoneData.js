@@ -9,8 +9,9 @@ export const iphoneData = [
     camera: "2MP",
     storage: "4GB/8GB/16GB",
     releaseDate: "2007年6月29日",
-    imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone",
-    evolution: "初代iPhone。マルチタッチディスプレイ。Safariブラウザ。",
+    imageUrl: "/images/iPhone.jpg",
+    evolution: "2007年6月29日に発売され、フィーチャーフォンからスマートフォンへの変遷のきっかけとなった初代モデルですが、日本では未発売でした。",
+    features: "2007年6月29日に発売され、フィーチャーフォンからスマートフォンへの変遷のきっかけとなった初代モデルですが、日本では未発売でした。",
     isJapanRelease: false
   },
   {
@@ -23,8 +24,9 @@ export const iphoneData = [
     camera: "2MP",
     storage: "8GB/16GB",
     releaseDate: "2008年7月11日",
-    imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+3G",
-    evolution: "3Gネットワーク対応。App Store登場。GPS機能。",
+    imageUrl: "/images/iPhone3G.jpg",
+    evolution: "2008年7月11日に日本で初めて発売されたiPhoneで、現在のiPhoneにも引き継がれている直感的なタッチ操作が特徴です。カラーはブラックとホワイトの2色で、8GBと16GBの容量がありました。",
+    features: "2008年7月11日に日本で初めて発売されたiPhoneで、現在のiPhoneにも引き継がれている直感的なタッチ操作が特徴です。カラーはブラックとホワイトの2色で、8GBと16GBの容量がありました。",
     isJapanRelease: true
   },
   {
@@ -37,8 +39,9 @@ export const iphoneData = [
     camera: "3MP",
     storage: "8GB/16GB/32GB",
     releaseDate: "2009年6月19日",
-    imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+3GS",
-    evolution: "動画撮影対応。音声コントロール。コンパス機能。",
+    imageUrl: "/images/iPhone3GS.png",
+    evolution: "iPhone 3Gの約1年後に発表され、処理性能が最大2倍に高速化されました。ビデオ撮影やリモコンマイク付きイヤホンにも対応し、使いやすさが向上しています。",
+    features: "iPhone 3Gの約1年後に発表され、処理性能が最大2倍に高速化されました。ビデオ撮影やリモコンマイク付きイヤホンにも対応し、使いやすさが向上しています。",
     isJapanRelease: true
   },
   {
@@ -52,7 +55,8 @@ export const iphoneData = [
     storage: "8GB/16GB/32GB",
     releaseDate: "2010年6月24日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+4",
-    evolution: "Retinaディスプレイ。FaceTime。HD動画撮影。",
+    evolution: "初のRetinaディスプレイを搭載し、デザインが丸みを帯びたものから強化ガラスを利用したデザインに大幅に変更され、小型・軽量化されました。前面カメラも初めて搭載されたモデルです。",
+    features: "初のRetinaディスプレイを搭載し、デザインが丸みを帯びたものから強化ガラスを利用したデザインに大幅に変更され、小型・軽量化されました。前面カメラも初めて搭載されたモデルです。",
     isJapanRelease: true
   },
   {
@@ -66,7 +70,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB",
     releaseDate: "2011年10月14日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+4S",
-    evolution: "Siri登場。1080p動画撮影。iCloud対応。",
+    evolution: "AppleのAIアシスタントであるSiriとクラウドサービス「iCloud」を初めて搭載しました。Appleの創設者スティーブ・ジョブズ生前最後のiPhoneとしても知られています。",
+    features: "AppleのAIアシスタントであるSiriとクラウドサービス「iCloud」を初めて搭載しました。Appleの創設者スティーブ・ジョブズ生前最後のiPhoneとしても知られています。",
     isJapanRelease: true
   },
   {
@@ -80,7 +85,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB",
     releaseDate: "2012年9月21日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+5",
-    evolution: "4インチディスプレイ。Lightningコネクタ。LTE対応。",
+    evolution: "従来の3.5インチから4インチに画面が拡大され、全体的に縦長になりました。Lightningコネクタが初めて搭載され、Ear Podsと呼ばれるイヤホンが同梱されるようになったのもこのモデルからです。",
+    features: "従来の3.5インチから4インチに画面が拡大され、全体的に縦長になりました。Lightningコネクタが初めて搭載され、Ear Podsと呼ばれるイヤホンが同梱されるようになったのもこのモデルからです。",
     isJapanRelease: true
   },
   {
@@ -94,7 +100,8 @@ export const iphoneData = [
     storage: "8GB/16GB/32GB",
     releaseDate: "2013年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+5c",
-    evolution: "カラフルなポリカーボネートボディ。5色展開。",
+    evolution: "ブルー、グリーン、ピンク、イエロー、ホワイトのカラフルなパステルカラーが特徴の廉価版モデルで、ポリカーボネート製の継ぎ目のない外観が話題となりました。",
+    features: "ブルー、グリーン、ピンク、イエロー、ホワイトのカラフルなパステルカラーが特徴の廉価版モデルで、ポリカーボネート製の継ぎ目のない外観が話題となりました。",
     isJapanRelease: true
   },
   {
@@ -108,7 +115,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB",
     releaseDate: "2013年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+5s",
-    evolution: "Touch ID登場。64bitアーキテクチャ。True Toneフラッシュ。",
+    evolution: "初のTouch ID（指紋認証）を搭載し、ソフトウェアもアップグレードされ、バッテリー効率やフィットネス機能が向上しました。カラーはスペースグレイ、ゴールド、シルバーの3色が登場。",
+    features: "初のTouch ID（指紋認証）を搭載し、ソフトウェアもアップグレードされ、バッテリー効率やフィットネス機能が向上しました。カラーはスペースグレイ、ゴールド、シルバーの3色が登場。",
     isJapanRelease: true
   },
   {
@@ -122,7 +130,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB/128GB",
     releaseDate: "2014年9月19日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+6",
-    evolution: "4.7インチ大画面。薄型デザイン。Apple Pay対応。",
+    evolution: "大画面化（4.7インチ）と薄型化を実現し、ディスプレイにはRetina HDディスプレイを採用しました。NFCを利用したApple Payに初めて対応し、128GBモデルも登場、急速充電も可能になりました。",
+    features: "大画面化（4.7インチ）と薄型化を実現し、ディスプレイにはRetina HDディスプレイを採用しました。NFCを利用したApple Payに初めて対応し、128GBモデルも登場、急速充電も可能になりました。",
     isJapanRelease: true
   },
   {
@@ -136,7 +145,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB/128GB",
     releaseDate: "2014年9月19日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+6+Plus",
-    evolution: "初のPlusモデル。5.5インチ大画面。光学手ブレ補正。",
+    evolution: "大画面化（5.5インチ）と薄型化を実現し、ディスプレイにはRetina HDディスプレイを採用しました。NFCを利用したApple Payに初めて対応し、128GBモデルも登場、急速充電も可能になりました。",
+    features: "大画面化（5.5インチ）と薄型化を実現し、ディスプレイにはRetina HDディスプレイを採用しました。NFCを利用したApple Payに初めて対応し、128GBモデルも登場、急速充電も可能になりました。",
     isJapanRelease: true
   },
   {
@@ -150,7 +160,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB/128GB",
     releaseDate: "2015年9月25日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+6s",
-    evolution: "3D Touch。Live Photos。4K動画撮影。",
+    evolution: "カメラ機能が向上し、メインカメラの画素数が1200万画素に上がり、最大30fpsの4K動画撮影に対応しました。第2世代のTouch IDにより、指紋認証のスピードも高速化されています。",
+    features: "カメラ機能が向上し、メインカメラの画素数が1200万画素に上がり、最大30fpsの4K動画撮影に対応しました。第2世代のTouch IDにより、指紋認証のスピードも高速化されています。",
     isJapanRelease: true
   },
   {
@@ -164,7 +175,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB/128GB",
     releaseDate: "2015年9月25日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+6s+Plus",
-    evolution: "3D Touch対応。Live Photos。4K動画撮影。",
+    evolution: "カメラ機能が向上し、メインカメラの画素数が1200万画素に上がり、最大30fpsの4K動画撮影に対応しました。第2世代のTouch IDにより、指紋認証のスピードも高速化されています。",
+    features: "カメラ機能が向上し、メインカメラの画素数が1200万画素に上がり、最大30fpsの4K動画撮影に対応しました。第2世代のTouch IDにより、指紋認証のスピードも高速化されています。",
     isJapanRelease: true
   },
   {
@@ -178,7 +190,8 @@ export const iphoneData = [
     storage: "16GB/32GB/64GB/128GB",
     releaseDate: "2016年3月31日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+SE",
-    evolution: "初代SE。4インチコンパクトサイズ。iPhone 6s同等性能。",
+    evolution: "iPhone 5sのデザインをほぼ踏襲しつつ、中身はiPhone 6sと同等のパフォーマンスを持つコンパクトなモデルとして「安くて良い製品を使いたい」というニーズに応えました。",
+    features: "iPhone 5sのデザインをほぼ踏襲しつつ、中身はiPhone 6sと同等のパフォーマンスを持つコンパクトなモデルとして「安くて良い製品を使いたい」というニーズに応えました。",
     isJapanRelease: true
   },
   {
@@ -192,7 +205,8 @@ export const iphoneData = [
     storage: "32GB/128GB/256GB",
     releaseDate: "2016年9月16日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+7",
-    evolution: "防水・防塵対応。ステレオスピーカー。ホームボタン非物理。",
+    evolution: "iPhoneとして初めて防塵・耐水加工を採用し、256GBの大容量ストレージが登場。SuicaやPasmoなどの交通系ICカードにも対応し、日常での利便性が大幅に向上しました。",
+    features: "iPhoneとして初めて防塵・耐水加工が施され、容量も256GBが登場しました。SuicaやPasmoなどの非接触決済サービスに対応しました。",
     isJapanRelease: true
   },
   {
@@ -206,7 +220,8 @@ export const iphoneData = [
     storage: "32GB/128GB/256GB",
     releaseDate: "2016年9月16日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+7+Plus",
-    evolution: "初のデュアルカメラ。2倍光学ズーム。ポートレートモード。",
+    evolution: "iPhoneとして初めて防塵・耐水加工が施され、容量も256GBが登場しました。SuicaやPasmoなどの非接触決済サービスに対応し、iPhone 7 Plusでは広角と望遠の2つのレンズを搭載し、ポートレートモードでの撮影が可能になりました。",
+    features: "iPhoneとして初めて防塵・耐水加工が施され、容量も256GBが登場しました。広角と望遠の2つのレンズを搭載し、ポートレートモードでの撮影が可能になりました。",
     isJapanRelease: true
   },
   {
@@ -220,7 +235,8 @@ export const iphoneData = [
     storage: "64GB/128GB/256GB",
     releaseDate: "2017年9月22日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+8",
-    evolution: "ワイヤレス充電対応。True Toneディスプレイ。AR対応。",
+    evolution: "「ガラスから生まれたiPhone」というキャッチコピーの通り、背面にガラスパネルを採用し、Qi対応のワイヤレス充電が可能になりました。PRODUCT(RED)モデルも発売されています。",
+    features: "「ガラスから生まれたiPhone」というキャッチコピーの通り、背面にガラスパネルを採用し、Qi対応のワイヤレス充電が可能になりました。PRODUCT(RED)モデルも発売されています。",
     isJapanRelease: true
   },
   {
@@ -234,7 +250,8 @@ export const iphoneData = [
     storage: "64GB/128GB/256GB",
     releaseDate: "2017年9月22日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+8+Plus",
-    evolution: "ワイヤレス充電対応。ポートレートライティング。AR対応。",
+    evolution: "「ガラスから生まれたiPhone」というキャッチコピーの通り、背面にガラスパネルを採用し、Qi対応のワイヤレス充電が可能になりました。PRODUCT(RED)モデルも発売されています。",
+    features: "「ガラスから生まれたiPhone」というキャッチコピーの通り、背面にガラスパネルを採用し、Qi対応のワイヤレス充電が可能になりました。ポートレートライティング機能も搭載されています。",
     isJapanRelease: true
   },
   {
@@ -248,7 +265,8 @@ export const iphoneData = [
     storage: "64GB/256GB",
     releaseDate: "2017年11月3日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+X",
-    evolution: "初のフルスクリーンデザイン。Face ID。Super Retinaディスプレイ。",
+    evolution: "iPhone登場10周年を記念して発表された全面ディスプレイ型のモデルで、ホームボタンが廃止され、Face ID（顔認証）が初めて搭載されました。ディスプレイには有機ELの「Super Retina HDディスプレイ」を採用し、背面のデュアルカメラ（望遠・広角）もこの機種からです。",
+    features: "iPhone登場10周年を記念して発表された全面ディスプレイ型のモデルで、ホームボタンが廃止され、Face ID（顔認証）が初めて搭載されました。ディスプレイには有機ELの「Super Retina HDディスプレイ」を採用し、背面のデュアルカメラ（望遠・広角）もこの機種からです。",
     isJapanRelease: true
   },
   {
@@ -262,7 +280,8 @@ export const iphoneData = [
     storage: "64GB/256GB/512GB",
     releaseDate: "2018年9月21日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+XS",
-    evolution: "7nmチップ。Smart HDR。デュアルSIM対応。",
+    evolution: "iPhone Xの約10ヶ月後に発売され、7nmチップを搭載し、Smart HDR機能により写真の品質が向上しました。デュアルSIM（nano SIMとeSIM）に対応し、1台で2つの電話番号を利用できるようになりました。",
+    features: "iPhone Xの約10ヶ月後に発売され、7nmチップを搭載し、Smart HDR機能により写真の品質が向上しました。デュアルSIM（nano SIMとeSIM）に対応し、1台で2つの電話番号を利用できるようになりました。",
     isJapanRelease: true
   },
   {
@@ -276,7 +295,8 @@ export const iphoneData = [
     storage: "64GB/256GB/512GB",
     releaseDate: "2018年9月21日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+XS+Max",
-    evolution: "最大6.5インチディスプレイ。Smart HDR。デュアルSIM対応。",
+    evolution: "6.5インチのSuper Retina HDディスプレイ（有機EL）を搭載し、iPhoneシリーズ史上最大級の画面サイズを実現。デュアルSIM対応で利便性が向上しました。",
+    features: "iPhone Xの約10ヶ月後に発売され、iPhone XS Maxは6.5インチの大画面ディスプレイを搭載しました。デュアルSIM（nano SIMとeSIM）に対応し、1台で2つの電話番号を利用できるようになりました。",
     isJapanRelease: true
   },
   {
@@ -290,7 +310,8 @@ export const iphoneData = [
     storage: "64GB/128GB/256GB",
     releaseDate: "2018年10月26日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+XR",
-    evolution: "6色展開。Liquid Retinaディスプレイ。シングルカメラでポートレート。",
+    evolution: "iPhone 5c以来のカラフルなデザイン（6種類）が話題となり、液晶ディスプレイを採用したiPhone Xの廉価版モデルです。本体には航空宇宙工学でも用いられるアルミニウム素材が使用され、軽さが特徴でした。",
+    features: "iPhone 5c以来のカラフルなデザイン（6種類）が話題となり、液晶ディスプレイを採用したiPhone Xの廉価版モデルです。本体には航空宇宙工学でも用いられるアルミニウム素材が使用され、軽さが特徴でした。",
     isJapanRelease: true
   },
   {
@@ -304,7 +325,8 @@ export const iphoneData = [
     storage: "64GB/128GB/256GB",
     releaseDate: "2019年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+11",
-    evolution: "ナイトモード。超広角カメラ。6色展開。",
+    evolution: "「ナイトモード」が新たに追加され、暗い場所での撮影性能が向上しました。従来の広角レンズに加えて「超広角レンズ」も搭載され、視野角120°の広い範囲の撮影が可能になりました。",
+    features: "「ナイトモード」が新たに追加され、暗い場所での撮影性能が向上しました。従来の広角レンズに加えて「超広角レンズ」も搭載され、視野角120°の広い範囲の撮影が可能になりました。",
     isJapanRelease: true
   },
   {
@@ -318,7 +340,8 @@ export const iphoneData = [
     storage: "64GB/256GB/512GB",
     releaseDate: "2019年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+11+Pro",
-    evolution: "初のProモデル。トリプルカメラ。Super Retina XDRディスプレイ。",
+    evolution: "iPhoneに「Pro」と名付けられた初のシリーズで、トリプルカメラ（広角・望遠・超広角）を初めて搭載し、プロレベルの写真撮影を実現しました。本体はステンレススチールで高級感のある仕上がりです。",
+    features: "iPhoneに「Pro」と名付けられた初のシリーズで、トリプルカメラ（広角・望遠・超広角）を初めて搭載し、プロレベルの写真撮影を実現しました。本体はステンレススチールで高級感のある仕上がりです。",
     isJapanRelease: true
   },
   {
@@ -332,7 +355,8 @@ export const iphoneData = [
     storage: "64GB/256GB/512GB",
     releaseDate: "2019年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+11+Pro+Max",
-    evolution: "6.7インチ大画面。センサーシフト光学手ブレ補正。最大ProRAW対応。",
+    evolution: "iPhoneに「Pro」と名付けられた初のシリーズで、トリプルカメラ（広角・望遠・超広角）を初めて搭載し、プロレベルの写真撮影を実現しました。本体はステンレススチールで高級感のある仕上がりです。",
+    features: "6.7インチ大画面での撮影に最適化されたセンサーシフト光学手ブレ補正機能を搭載しました。最大容量512GBのストレージを搭載し、ProRAW形式での写真撮影が可能になりました。",
     isJapanRelease: true
   },
   {
@@ -346,7 +370,8 @@ export const iphoneData = [
     storage: "64GB/128GB/256GB",
     releaseDate: "2020年10月23日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+12",
-    evolution: "5G対応。MagSafe充電。フラットデザイン復活。",
+    evolution: "iPhoneとして初めて5Gに対応し、デザインも丸みを帯びたものから角張ったフラットデザインに変更。環境配慮により有線イヤホンと電源アダプタの同梱が廃止されました。",
+    features: "5G対応の新しいモデルで、ワイヤレス充電にMagSafeという新しい充電システムを採用しました。デザインはiPhone 4のようなフラットなものに戻りました。",
     isJapanRelease: true
   },
   {
@@ -360,7 +385,8 @@ export const iphoneData = [
     storage: "64GB/128GB/256GB",
     releaseDate: "2020年11月13日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+12+mini",
-    evolution: "5.4インチコンパクトサイズ。5G対応。MagSafe充電。",
+    evolution: "「5G」に初めて対応し、丸みのあるデザインから角張ったデザインに変更されました。コンパクトな「mini」モデルが展開され、環境への配慮から有線イヤホンと電源アダプタの同梱が廃止されました。",
+    features: "5.4インチの小さなモデルで、5Gに対応した新しいiPhoneです。MagSafe充電により、iPhoneと他のデバイスとの間での無線充電が可能になりました。",
     isJapanRelease: true
   },
   {
@@ -374,7 +400,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB",
     releaseDate: "2020年10月23日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+12+Pro",
-    evolution: "LiDARスキャナー搭載。RAW写真撮影。プロRAW対応。",
+    evolution: "プロ仕様のカメラ機能に加え、LiDARスキャナを搭載し、AR（拡張現実）性能が向上したハイエンドモデルです。ステンレススチールを用いた高級感のある見た目です。",
+    features: "LiDARスキャナーを搭載し、プロレベルの写真撮影が可能になりました。RAW写真撮影に対応し、プロRAW形式での写真撮影が可能になりました。",
     isJapanRelease: true
   },
   {
@@ -388,7 +415,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB",
     releaseDate: "2020年11月13日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+12+Pro+Max",
-    evolution: "6.7インチ大画面。センサーシフト光学手ブレ補正。最大ProRAW対応。",
+    evolution: "6.7インチの大迫力ディスプレイとプロ仕様カメラを搭載。カラーはシルバー、ゴールド、グラファイト、パシフィックブルーの4種類で、ステンレススチールの高級感あるデザインです。",
+    features: "6.7インチ大画面での撮影に最適化されたセンサーシフト光学手ブレ補正機能を搭載しました。最大容量512GBのストレージを搭載し、ProRAW形式での写真撮影が可能になりました。",
     isJapanRelease: true
   },
   {
@@ -402,7 +430,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB",
     releaseDate: "2021年9月24日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+13",
-    evolution: "シネマティックモード。フォトスタイル。バッテリー持続時間大幅向上。",
+    evolution: "ディスプレイにはOLED（有機EL）が採用され、割れにくく目に優しい仕様です。カラー名称が「ミッドナイト」「スターライト」に変更されるなど、Appleのこだわりを感じるカラー展開が特徴でした。",
+    features: "シネマティックモードを搭載し、写真撮影に新しいスタイルを加えました。フォトスタイルを搭載し、写真撮影に新しいスタイルを加えました。バッテリーの持続時間が大幅に向上しました。",
     isJapanRelease: true
   },
   {
@@ -416,7 +445,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB",
     releaseDate: "2021年9月24日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+13+mini",
-    evolution: "5.4インチコンパクトサイズ。シネマティックモード。バッテリー持続時間向上。",
+    evolution: "小型ながら、iPhone 13やProモデルと同じA15 Bionicチップを搭載。処理速度やレスポンスも非常に高く、重い3Dゲームも快適に動作します。OLEDディスプレイで目に優しい仕様です。",
+    features: "5.4インチの小さなモデルで、シネマティックモードを搭載しました。バッテリーの持続時間が向上しました。",
     isJapanRelease: true
   },
   {
@@ -430,7 +460,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB/1TB",
     releaseDate: "2021年9月24日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+13+Pro",
-    evolution: "ProMotion 120Hzディスプレイ。マクロ写真。プロRes動画。",
+    evolution: "カメラ性能がさらに向上し、iPhone 12 Proと比較して暗い場所での撮影性能が最大2.2倍向上し、プロモーションディスプレイも搭載されています。",
+    features: "ProMotion 120Hzディスプレイを搭載し、ディスプレイの応答速度が大幅に向上しました。マクロ写真を搭載し、プロRes動画に対応しました。",
     isJapanRelease: true
   },
   {
@@ -444,7 +475,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB/1TB",
     releaseDate: "2021年9月24日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+13+Pro+Max",
-    evolution: "最大バッテリー容量。プロRes動画。マクロ写真。",
+    evolution: "6.7インチの大画面とプロ仕様カメラを搭載。カラーも刷新され、シルバー、ゴールド、グラファイトの定番色に加えて、シエラブルー、アルパイングリーンの全5色あります。",
+    features: "最大バッテリー容量を搭載し、プロRes動画に対応しました。マクロ写真を搭載し、プロRes動画に対応しました。",
     isJapanRelease: true
   },
   {
@@ -452,13 +484,14 @@ export const iphoneData = [
     year: 2022,
     model: "iPhone 14",
     displaySize: "6.1インチ",
-    resolution: "1179×2556",
+    resolution: "1170x2532",
     chip: "A15 Bionic",
     camera: "12MP+12MP",
     storage: "128GB/256GB/512GB",
     releaseDate: "2022年9月16日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+14",
-    evolution: "衝突検知機能。衛星SOS。プロ仕様カメラシステム。",
+    evolution: "カメラのセンサーサイズ拡大と新画像処理技術「Photonic Engine」搭載で、暗所や夜景の撮影クオリティが大幅アップ。シネマティックモードが24fpsの4K撮影に対応し、より映画のような映像表現が可能になりました。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
     isJapanRelease: true
   },
   {
@@ -472,7 +505,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB/1TB",
     releaseDate: "2022年9月16日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+14+Pro",
-    evolution: "初の48MPカメラ。ダイナミックアイランド。Always-Onディスプレイ。",
+    evolution: "「衝突事故検出機能」という新機能が追加されました。これは、事故発生時にユーザーの反応がない場合、自動的に救助要請の通報をしてくれる機能です。",
+    features: "48MPカメラを搭載し、ダイナミックアイランドを搭載し、Always-Onディスプレイを搭載しました。",
     isJapanRelease: true
   },
   {
@@ -480,13 +514,14 @@ export const iphoneData = [
     year: 2022,
     model: "iPhone 14 Pro Max",
     displaySize: "6.7インチ",
-    resolution: "1290×2796",
+    resolution: "1290x2796",
     chip: "A16 Bionic",
     camera: "48MP+12MP+12MP",
     storage: "128GB/256GB/512GB/1TB",
     releaseDate: "2022年9月16日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+14+Pro+Max",
-    evolution: "最大48MPカメラ。ダイナミックアイランド。Always-Onディスプレイ。",
+    evolution: "iPhone 14 Proと同様、ノッチを廃止し、通知や操作を直感的に行える新UI（Dynamic Island）を搭載。最新のA16 Bionicチップ搭載で処理性能・グラフィック性能が大幅向上しました。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
     isJapanRelease: true
   },
   {
@@ -494,13 +529,14 @@ export const iphoneData = [
     year: 2023,
     model: "iPhone 15",
     displaySize: "6.1インチ",
-    resolution: "1179×2556",
+    resolution: "1179x2556",
     chip: "A16 Bionic",
     camera: "48MP+12MP",
     storage: "128GB/256GB/512GB",
     releaseDate: "2023年9月22日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+15",
-    evolution: "USB-C採用。48MPメインカメラ。ダイナミックアイランド。",
+    evolution: "新色としてウルトラマリン、ティール、ピンクが加わり、iPhone 15では消えていたホワイトカラーが再登場。デザイン面ではカメラの配置が縦に並び、カメラコントロールボタンが側面に追加され、カメラアプリの起動や撮影がより便利になりました。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
     isJapanRelease: true
   },
   {
@@ -514,7 +550,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB",
     releaseDate: "2023年9月22日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+15+Plus",
-    evolution: "Plusモデル復活。6.7インチ大画面。48MPカメラ。",
+    evolution: "最大の特徴は、Lightningコネクタが廃止され、USB-Cコネクタが新たに採用された点です。これにより、MacBookやiPadとのデバイス間の互換性が高まり、利便性が向上しました。",
+    features: "6.7インチ大画面を搭載し、48MPカメラを搭載しました。",
     isJapanRelease: true
   },
   {
@@ -528,7 +565,8 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB/1TB",
     releaseDate: "2023年9月22日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+15+Pro",
-    evolution: "チタンデザイン。USB-C採用。アクションボタン。3nmチップ。",
+    evolution: "iPhoneとして初めてチタン合金が外装に利用され、軽量化されたハイエンドモデルです。チタンのマットな質感と高級感のあるデザインが特徴です。",
+    features: "チタンデザインを採用し、USB-Cを採用し、アクションボタンを搭載し、3nmチップを搭載しました。",
     isJapanRelease: true
   },
   {
@@ -542,7 +580,8 @@ export const iphoneData = [
     storage: "256GB/512GB/1TB",
     releaseDate: "2023年9月22日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+15+Pro+Max",
-    evolution: "5倍光学ズーム。チタンデザイン。アクションボタン。最大容量1TB。",
+    evolution: "iPhone 15 Proと同様、チタン素材を採用し、軽量化と耐久性を両立。カラーも4種類、ナチュラルチタニウム、ブルーチタニウム、ホワイトチタニウム、ブラックチタニウムがあります。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
     isJapanRelease: true
   },
   {
@@ -550,17 +589,33 @@ export const iphoneData = [
     year: 2024,
     model: "iPhone 16",
     displaySize: "6.1インチ",
-    resolution: "1179×2556",
-    chip: "A18",
+    resolution: "1179x2556",
+    chip: "A18 Pro",
     camera: "48MP+12MP",
     storage: "128GB/256GB/512GB",
     releaseDate: "2024年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+16",
-    evolution: "A18チップ搭載。AI機能強化。カメラ性能向上。",
+    evolution: "最新のA18 Proチップを搭載し、AI機能が大幅に強化されました。Apple Intelligence対応。カメラシステムも進化し、より高品質な写真と動画撮影が可能になりました。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
     isJapanRelease: true
   },
   {
     id: 41,
+    year: 2024,
+    model: "iPhone 16e",
+    displaySize: "6.1インチ",
+    resolution: "1179x2556",
+    chip: "A18",
+    camera: "48MP+12MP",
+    storage: "128GB/256GB",
+    releaseDate: "2024年9月20日",
+    imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+16e",
+    evolution: "iPhone 16シリーズのエントリーモデルとして登場。A18チップを搭載し、高性能ながらも手頃な価格で最新のiPhone体験を提供します。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
+    isJapanRelease: true
+  },
+  {
+    id: 42,
     year: 2024,
     model: "iPhone 16 Plus",
     displaySize: "6.7インチ",
@@ -570,11 +625,12 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB",
     releaseDate: "2024年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+16+Plus",
-    evolution: "A18チップ搭載。6.7インチ大画面。AI機能強化。",
+    evolution: "新色としてウルトラマリン、ティール、ピンクが加わり、iPhone 15では消えていたホワイトカラーが再登場しました。デザイン面ではカメラの配置が縦に並んだ点が異なり、カメラコントロールボタンが側面に追加され、カメラアプリの起動、写真撮影、ビデオ撮影、設定変更が容易になりました。",
+    features: "A18チップを搭載し、6.7インチ大画面を搭載し、AI機能を強化しました。",
     isJapanRelease: true
   },
   {
-    id: 42,
+    id: 43,
     year: 2024,
     model: "iPhone 16 Pro",
     displaySize: "6.3インチ",
@@ -584,21 +640,23 @@ export const iphoneData = [
     storage: "128GB/256GB/512GB/1TB",
     releaseDate: "2024年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+16+Pro",
-    evolution: "A18 Proチップ搭載。AI機能強化。カメラ性能向上。より薄型デザイン。",
+    evolution: "グレード5チタニウムデザインを採用し、iPhone 15 Proと比較してバッテリー持続時間が最大20%向上しました。ディスプレイサイズはそれぞれ約6.3インチと6.9インチに大型化しながらも持ちやすさは維持され、常時表示機能や最大120Hzのリフレッシュレートに対応しています。",
+    features: "A18 Proチップを搭載し、AI機能を強化し、カメラ性能を向上させました。より薄型デザインになりました。",
     isJapanRelease: true
   },
   {
-    id: 43,
+    id: 44,
     year: 2024,
     model: "iPhone 16 Pro Max",
     displaySize: "6.9インチ",
-    resolution: "1320×2868",
+    resolution: "2868x1320",
     chip: "A18 Pro",
-    camera: "48MP+48MP+12MP",
+    camera: "48MP+12MP+12MP",
     storage: "256GB/512GB/1TB",
     releaseDate: "2024年9月20日",
     imageUrl: "https://via.placeholder.com/300x400/f5f5f7/333333?text=iPhone+16+Pro+Max",
-    evolution: "A18 Proチップ搭載。最大容量1TB。AI機能強化。プロ仕様カメラ。",
+    evolution: "6.9インチのSuper Retina XDR OLEDディスプレイを搭載し、シリーズ最大の大画面を実現。常時表示機能と最大120HzのProMotionテクノロジーで、より快適な使用体験を提供しています。",
+    features: "衝突検知機能を搭載し、衛星SOSに対応しました。プロ仕様カメラシステムを搭載し、プロ仕様カメラシステムに対応しました。",
     isJapanRelease: true
   }
 ]; 
