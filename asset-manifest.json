@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iPhonespec/static/css/main.a213eefd.css",
+    "main.js": "/iPhonespec/static/js/main.5b59a8a2.js",
+    "index.html": "/iPhonespec/index.html",
+    "main.a213eefd.css.map": "/iPhonespec/static/css/main.a213eefd.css.map",
+    "main.5b59a8a2.js.map": "/iPhonespec/static/js/main.5b59a8a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a213eefd.css",
+    "static/js/main.5b59a8a2.js"
+  ]
+}
